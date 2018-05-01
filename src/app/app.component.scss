@@ -1,0 +1,21 @@
+.mainwrapper{
+    display: flex;
+    flex-direction: column;
+
+    .header{
+        height: 75px;
+        display: flex;
+
+        app-toggl-entry-name{
+            flex-grow: 1;
+        }
+    }
+
+    .search{
+        height: 50px;
+    }
+
+    .content{
+        flex-grow: 1;
+    }
+}

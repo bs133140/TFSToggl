@@ -1,0 +1,26 @@
+<div class="mainwrapper">
+  <div class="header">
+    <app-toggl-entry-name></app-toggl-entry-name>
+    <app-toggl-entry-time></app-toggl-entry-time>
+    <app-toggl-entry-action></app-toggl-entry-action>
+  </div>
+  <div class="history">
+    <app-toggl-entry-list></app-toggl-entry-list>
+  </div>
+  <div class="search">
+    <app-tfs-search></app-tfs-search>
+  </div>
+  <div class="content">
+    <mat-tab-group>
+      <mat-tab label="Current iteration">
+        <app-tfs-current></app-tfs-current>
+      </mat-tab>
+      <mat-tab label="Assigned bugs">
+        <app-tfs-bugs></app-tfs-bugs>
+      </mat-tab>
+      <mat-tab label="All items">
+        <app-tfs-all></app-tfs-all>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</div>
